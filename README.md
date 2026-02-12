@@ -32,7 +32,7 @@ Where:
 
 - $b$ → intercept (km).  
 - $v$ → plate velocity (km/Myr).  
-- $ε ~ N(0, σ²)$ → Gaussian measurement noise.  
+- $ε$ ~ $N(0, σ²)$ → Gaussian measurement noise.  
 
 ### Least Squares Solution
 
@@ -60,12 +60,10 @@ $$v̂ ± 1.96 · SE(v)$$
 
 Estimated Pacific Plate velocity:
 
-$75.87 km/Myr$  
-$7.59 cm/year$  
+- $75.87 km/Myr$  
+- $7.59 cm/year$  
 
-95% CI:
-
-$[7.26, 7.92] cm/year$
+95% CI: $[7.26, 7.92] cm/year$
 
 Model Quality:
 
