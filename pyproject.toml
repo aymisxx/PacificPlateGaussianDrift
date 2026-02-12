@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pacific_plate_gaussian_drift"
+version = "0.1.0"
+description = "Least Squares + Gaussian Drift estimation of Pacific Plate velocity"
+authors = [{name = "Your Name"}]
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib"
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
